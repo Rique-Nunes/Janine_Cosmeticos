@@ -7,7 +7,7 @@
 
     <title>Cadastro - Janine Cosméticos</title>
 
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="css/cadastro.css">
     <link rel="stylesheet" href="css/header_cliente.css">
     <link rel="stylesheet" href="css/footer_cliente.css">
     <script src="js/api.js"></script>

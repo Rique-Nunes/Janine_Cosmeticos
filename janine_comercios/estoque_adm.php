@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle de Estoque</title>
 
-    <link rel="stylesheet" href="estoque_adm.css">
+    <link rel="stylesheet" href="css/estoque_adm.css">
 
     <!-- BIBLIOTECA DE ÍCONES -->
     <script src="https://unpkg.com/lucide@latest"></script>

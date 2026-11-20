@@ -1,0 +1,6 @@
+# Docker Compose da VPS (contém configurações da infraestrutura geral)
+docker-compose.yml
+
+# Arquivos de ambiente
+.env
+.env.*
