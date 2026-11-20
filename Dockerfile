@@ -1,5 +1,8 @@
 FROM php:8.2-apache
 
+# Suprimir aviso de ServerName do Apache
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
 # Habilitar output buffering no PHP para evitar problemas de headers already sent
 RUN echo "output_buffering = 4096" >> /usr/local/etc/php/conf.d/docker-php-custom.ini
 
