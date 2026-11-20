@@ -51,7 +51,7 @@ $result = $con->query($sql);
                     while($produto = $result->fetch_assoc()) {
                         $nome = htmlspecialchars($produto['nome_prod'] ?? 'Produto sem nome');
                         $preco = number_format($produto['preco_promocional'] ?? 0, 2, ',', '.');
-                        $imagem = htmlspecialchars($produto['imagem_produto'] ?? 'img/placeholder.png');
+                        $imagem = !empty($produto['imagem_produto']) ? htmlspecialchars($produto['imagem_produto']) : 'img/placeholder.png';
                 ?>
                     <div class="card-produto">
                         <div class="card-imagem">

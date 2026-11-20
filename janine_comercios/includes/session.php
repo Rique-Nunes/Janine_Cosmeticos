@@ -1,13 +1,10 @@
-
 <?php
-
-session_start();
-if (!isset($_SESSION['sessao'])) {
-    session_unset();
-    session_destroy();
-    
-    
-    exit;
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
 }
 
+if (!isset($_SESSION['sessao'])) {
+    header('Location: login.php');
+    exit;
+}
 ?>

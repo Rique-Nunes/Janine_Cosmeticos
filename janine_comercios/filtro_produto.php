@@ -1,8 +1,7 @@
-
 <?php
 include("includes/conexao.php");
 include("includes/funcoes.php");
-include("includes/session.php");
+
 
 // ========================================
 // CONFIGURAÇÃO DA PAGINAÇÃO
@@ -428,7 +427,7 @@ function linkPagina($numero) {
                                 <a href="realizar_compra.php?id_produto=<?php echo $id_produto; ?>">
 
                                     <img
-                                        src="<?php echo htmlspecialchars($produtos['imagem_produto']); ?>"
+                                        src="<?php echo !empty($produtos['imagem_produto']) ? htmlspecialchars($produtos['imagem_produto']) : 'img/placeholder.png'; ?>"
                                         alt="<?php echo htmlspecialchars($produtos['nome_prod']); ?>"
                                     >
 

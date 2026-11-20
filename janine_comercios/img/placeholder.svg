@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="100%" height="100%" fill="#F4F1EC"/>
+  <circle cx="200" cy="120" r="45" fill="#E8E2D8"/>
+  <!-- Perfume/Cosmetic bottle icon -->
+  <path d="M190 95 h20 v12 h-20 z" fill="#8C7A6B"/>
+  <path d="M182 110 h36 c4 0 7 3 7 7 v40 c0 7 -6 13 -13 13 h-24 c-7 0 -13 -6 -13 -13 v-40 c0 -4 3 -7 7 -7 z" fill="#8C7A6B"/>
+  <rect x="187" y="125" width="26" height="20" rx="2" fill="#F4F1EC" opacity="0.8"/>
+  <text x="200" y="205" font-family="'DM Sans', 'Inter', sans-serif" font-size="15" font-weight="600" fill="#8C7A6B" text-anchor="middle" letter-spacing="1">JANINE COSMÉTICOS</text>
+  <text x="200" y="228" font-family="'DM Sans', 'Inter', sans-serif" font-size="12" fill="#A8988B" text-anchor="middle">Sem imagem cadastrada</text>
+</svg>
